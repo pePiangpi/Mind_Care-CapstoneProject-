@@ -1,0 +1,15 @@
+https://huggingface.co/datasets/facebook/empathetic_dialogues
+
+https://github.com/facebookresearch/EmpatheticDialogues
+
+# Install wget
+apt-get update && apt-get install -y wget
+
+# Then download
+wget https://dl.fbaipublicfiles.com/parlai/empatheticdialogues/empatheticdialogues.tar.gz
+
+# Extract
+tar -xzf empatheticdialogues.tar.gz
+
+# Check files
+ls -lh empatheticdialogues/

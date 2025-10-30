@@ -1,0 +1,64 @@
+# Core ML Libraries
+transformers>=4.30.0
+torch
+datasets
+evaluate
+accelerate
+peft
+bitsandbytes
+
+# NLP & Language Models
+sentence-transformers
+langchain
+faiss-cpu
+
+# Burmese Language Support
+Myanmar-tools
+python-myanmar
+
+# Audio Processing (Voice Emotion Detection)
+librosa
+soundfile
+pydub
+speechrecognition
+
+# Computer Vision (Facial Emotion Detection)
+opencv-python
+deepface
+pillow
+
+# Data Processing
+pandas
+numpy
+scikit-learn
+openpyxl
+xlrd
+
+# API & Backend
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+
+# Frontend
+gradio
+streamlit
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Development Tools
+jupyter
+notebook
+ipywidgets
+
+# Utilities
+python-dotenv
+requests
+tqdm
+pypdf2
+
+# Testing (optional but recommended)
+pytest
